@@ -15,10 +15,10 @@ on:
   push:
     branches:
       - master
-   paths:
+    paths:
     - 'config/lean/*.config'
   schedule:
-    - cron: 0 10 * * 3
+    - cron: 0 10 * * 5
   watch:
     types: started
 

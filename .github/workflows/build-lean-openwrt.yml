@@ -12,11 +12,11 @@ on:
   #repository_dispatch:
   #release:
   #  types: published
-  push:
-    branches:
-      - master
-    paths:
-      - 'config/lean/*.config'
+  #push:
+    #branches:
+    #  - master
+ #  paths:
+ #   - 'config/lean/*.config'
   schedule:
     - cron: 0 10 * * 3
   watch:
